@@ -11,14 +11,59 @@
 		B0671E5F2CF39CF000D7EEE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0671E5E2CF39CF000D7EEE3 /* ContentView.swift */; };
 		B0671E612CF39CF100D7EEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0671E602CF39CF100D7EEE3 /* Assets.xcassets */; };
 		B0671E642CF39CF100D7EEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0671E632CF39CF100D7EEE3 /* Preview Assets.xcassets */; };
+		B0671E712CF39D1F00D7EEE3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0671E702CF39D1F00D7EEE3 /* WidgetKit.framework */; };
+		B0671E732CF39D1F00D7EEE3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0671E722CF39D1F00D7EEE3 /* SwiftUI.framework */; };
+		B0671E762CF39D1F00D7EEE3 /* IsisFlagWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0671E752CF39D1F00D7EEE3 /* IsisFlagWidgetBundle.swift */; };
+		B0671E782CF39D1F00D7EEE3 /* IsisFlagWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0671E772CF39D1F00D7EEE3 /* IsisFlagWidgetLiveActivity.swift */; };
+		B0671E7A2CF39D1F00D7EEE3 /* IsisFlagWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0671E792CF39D1F00D7EEE3 /* IsisFlagWidget.swift */; };
+		B0671E7C2CF39D1F00D7EEE3 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0671E7B2CF39D1F00D7EEE3 /* AppIntent.swift */; };
+		B0671E7E2CF39D2000D7EEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0671E7D2CF39D2000D7EEE3 /* Assets.xcassets */; };
+		B0671E822CF39D2000D7EEE3 /* IsisFlagWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B0671E6E2CF39D1F00D7EEE3 /* IsisFlagWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0671E8A2CF3A1B200D7EEE3 /* FlagStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0671E872CF39D5300D7EEE3 /* FlagStatus.swift */; };
+		B0671E8B2CF3A1BF00D7EEE3 /* FlagStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0671E872CF39D5300D7EEE3 /* FlagStatus.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B0671E802CF39D2000D7EEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0671E512CF39CF000D7EEE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0671E6D2CF39D1F00D7EEE3;
+			remoteInfo = IsisFlagWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0671E862CF39D2000D7EEE3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B0671E822CF39D2000D7EEE3 /* IsisFlagWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B0671E592CF39CF000D7EEE3 /* IsisFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsisFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0671E592CF39CF000D7EEE3 /* Isis Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Isis Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0671E5C2CF39CF000D7EEE3 /* IsisFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsisFlagApp.swift; sourceTree = "<group>"; };
 		B0671E5E2CF39CF000D7EEE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0671E602CF39CF100D7EEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0671E632CF39CF100D7EEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0671E6E2CF39D1F00D7EEE3 /* IsisFlagWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IsisFlagWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0671E702CF39D1F00D7EEE3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B0671E722CF39D1F00D7EEE3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B0671E752CF39D1F00D7EEE3 /* IsisFlagWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsisFlagWidgetBundle.swift; sourceTree = "<group>"; };
+		B0671E772CF39D1F00D7EEE3 /* IsisFlagWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsisFlagWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		B0671E792CF39D1F00D7EEE3 /* IsisFlagWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsisFlagWidget.swift; sourceTree = "<group>"; };
+		B0671E7B2CF39D1F00D7EEE3 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		B0671E7D2CF39D2000D7EEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0671E7F2CF39D2000D7EEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0671E872CF39D5300D7EEE3 /* FlagStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagStatus.swift; sourceTree = "<group>"; };
+		B0671E902CF3B30C00D7EEE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +74,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0671E6B2CF39D1F00D7EEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0671E732CF39D1F00D7EEE3 /* SwiftUI.framework in Frameworks */,
+				B0671E712CF39D1F00D7EEE3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B0671E502CF39CF000D7EEE3 = {
 			isa = PBXGroup;
 			children = (
+				B0671E902CF3B30C00D7EEE3 /* README.md */,
 				B0671E5B2CF39CF000D7EEE3 /* IsisFlag */,
+				B0671E742CF39D1F00D7EEE3 /* IsisFlagWidget */,
+				B0671E6F2CF39D1F00D7EEE3 /* Frameworks */,
 				B0671E5A2CF39CF000D7EEE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,7 +100,8 @@
 		B0671E5A2CF39CF000D7EEE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0671E592CF39CF000D7EEE3 /* IsisFlag.app */,
+				B0671E592CF39CF000D7EEE3 /* Isis Flag.app */,
+				B0671E6E2CF39D1F00D7EEE3 /* IsisFlagWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +109,7 @@
 		B0671E5B2CF39CF000D7EEE3 /* IsisFlag */ = {
 			isa = PBXGroup;
 			children = (
+				B0671E872CF39D5300D7EEE3 /* FlagStatus.swift */,
 				B0671E5C2CF39CF000D7EEE3 /* IsisFlagApp.swift */,
 				B0671E5E2CF39CF000D7EEE3 /* ContentView.swift */,
 				B0671E602CF39CF100D7EEE3 /* Assets.xcassets */,
@@ -67,25 +126,66 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B0671E6F2CF39D1F00D7EEE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0671E702CF39D1F00D7EEE3 /* WidgetKit.framework */,
+				B0671E722CF39D1F00D7EEE3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0671E742CF39D1F00D7EEE3 /* IsisFlagWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B0671E752CF39D1F00D7EEE3 /* IsisFlagWidgetBundle.swift */,
+				B0671E772CF39D1F00D7EEE3 /* IsisFlagWidgetLiveActivity.swift */,
+				B0671E792CF39D1F00D7EEE3 /* IsisFlagWidget.swift */,
+				B0671E7B2CF39D1F00D7EEE3 /* AppIntent.swift */,
+				B0671E7D2CF39D2000D7EEE3 /* Assets.xcassets */,
+				B0671E7F2CF39D2000D7EEE3 /* Info.plist */,
+			);
+			path = IsisFlagWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0671E582CF39CF000D7EEE3 /* IsisFlag */ = {
+		B0671E582CF39CF000D7EEE3 /* Isis Flag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0671E672CF39CF100D7EEE3 /* Build configuration list for PBXNativeTarget "IsisFlag" */;
+			buildConfigurationList = B0671E672CF39CF100D7EEE3 /* Build configuration list for PBXNativeTarget "Isis Flag" */;
 			buildPhases = (
 				B0671E552CF39CF000D7EEE3 /* Sources */,
 				B0671E562CF39CF000D7EEE3 /* Frameworks */,
 				B0671E572CF39CF000D7EEE3 /* Resources */,
+				B0671E862CF39D2000D7EEE3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0671E812CF39D2000D7EEE3 /* PBXTargetDependency */,
+			);
+			name = "Isis Flag";
+			productName = IsisFlag;
+			productReference = B0671E592CF39CF000D7EEE3 /* Isis Flag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0671E6D2CF39D1F00D7EEE3 /* IsisFlagWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0671E832CF39D2000D7EEE3 /* Build configuration list for PBXNativeTarget "IsisFlagWidgetExtension" */;
+			buildPhases = (
+				B0671E6A2CF39D1F00D7EEE3 /* Sources */,
+				B0671E6B2CF39D1F00D7EEE3 /* Frameworks */,
+				B0671E6C2CF39D1F00D7EEE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IsisFlag;
-			productName = IsisFlag;
-			productReference = B0671E592CF39CF000D7EEE3 /* IsisFlag.app */;
-			productType = "com.apple.product-type.application";
+			name = IsisFlagWidgetExtension;
+			productName = IsisFlagWidgetExtension;
+			productReference = B0671E6E2CF39D1F00D7EEE3 /* IsisFlagWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +198,9 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					B0671E582CF39CF000D7EEE3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B0671E6D2CF39D1F00D7EEE3 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -115,7 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0671E582CF39CF000D7EEE3 /* IsisFlag */,
+				B0671E582CF39CF000D7EEE3 /* Isis Flag */,
+				B0671E6D2CF39D1F00D7EEE3 /* IsisFlagWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +234,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0671E6C2CF39D1F00D7EEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0671E7E2CF39D2000D7EEE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,10 +251,31 @@
 			files = (
 				B0671E5F2CF39CF000D7EEE3 /* ContentView.swift in Sources */,
 				B0671E5D2CF39CF000D7EEE3 /* IsisFlagApp.swift in Sources */,
+				B0671E8A2CF3A1B200D7EEE3 /* FlagStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0671E6A2CF39D1F00D7EEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0671E7A2CF39D1F00D7EEE3 /* IsisFlagWidget.swift in Sources */,
+				B0671E8B2CF3A1BF00D7EEE3 /* FlagStatus.swift in Sources */,
+				B0671E7C2CF39D1F00D7EEE3 /* AppIntent.swift in Sources */,
+				B0671E782CF39D1F00D7EEE3 /* IsisFlagWidgetLiveActivity.swift in Sources */,
+				B0671E762CF39D1F00D7EEE3 /* IsisFlagWidgetBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0671E812CF39D2000D7EEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0671E6D2CF39D1F00D7EEE3 /* IsisFlagWidgetExtension */;
+			targetProxy = B0671E802CF39D2000D7EEE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B0671E652CF39CF100D7EEE3 /* Debug */ = {
@@ -267,6 +400,7 @@
 		B0671E682CF39CF100D7EEE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -285,7 +419,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "b-d-e.IsisFlag";
+				PRODUCT_BUNDLE_IDENTIFIER = "b-d-e.OURCS-Flag-Status";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,6 +430,7 @@
 		B0671E692CF39CF100D7EEE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,8 +449,62 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "b-d-e.IsisFlag";
+				PRODUCT_BUNDLE_IDENTIFIER = "b-d-e.OURCS-Flag-Status";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0671E842CF39D2000D7EEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUCZ6ADCVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsisFlagWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IsisFlagWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "b-d-e.OURCS-Flag-Status.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0671E852CF39D2000D7EEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUCZ6ADCVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsisFlagWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IsisFlagWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "b-d-e.OURCS-Flag-Status.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,11 +523,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0671E672CF39CF100D7EEE3 /* Build configuration list for PBXNativeTarget "IsisFlag" */ = {
+		B0671E672CF39CF100D7EEE3 /* Build configuration list for PBXNativeTarget "Isis Flag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0671E682CF39CF100D7EEE3 /* Debug */,
 				B0671E692CF39CF100D7EEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0671E832CF39D2000D7EEE3 /* Build configuration list for PBXNativeTarget "IsisFlagWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0671E842CF39D2000D7EEE3 /* Debug */,
+				B0671E852CF39D2000D7EEE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
