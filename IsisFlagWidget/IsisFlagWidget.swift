@@ -59,11 +59,11 @@ struct FlagEntry: TimelineEntry {
 
 struct FlagProvider: TimelineProvider {
     func placeholder(in context: Context) -> FlagEntry {
-        FlagEntry(date: Date(), status: FlagStatus(reach: "isis", status: "R", status_text: "Red", notices: [], set_date: "2024-11-24T16:14:53.675Z", set_by: "Oscar Hayden"))
+        FlagEntry(date: Date(), status: FlagStatus(reach: "isis", status: "R", status_text: "Red", notices: ["No rowing"], set_date: "2024-11-24T16:14:53.675Z", set_by: "Firstname Lastname"))
     }
 
     func getSnapshot(in context: Context, completion: @escaping (FlagEntry) -> Void) {
-        let entry = FlagEntry(date: Date(), status: FlagStatus(reach: "isis", status: "R", status_text: "Red", notices: [], set_date: "2024-11-24T16:14:53.675Z", set_by: "Oscar Hayden"))
+        let entry = FlagEntry(date: Date(), status: FlagStatus(reach: "isis", status: "G", status_text: "Green", notices: [], set_date: "2024-11-24T16:14:53.675Z", set_by: "Firstname Lastname"))
         completion(entry)
     }
 
